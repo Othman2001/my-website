@@ -47,6 +47,8 @@ body {
 .wrapper {
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
+
+  z-index: 100000;
 }
 .outer-wrapper {
   width: 100vh;
@@ -66,7 +68,7 @@ body {
 }
 canvas {
   width: 100%;
-  display: flex;
+  z-index: -10000;
 }
 .upper-layer {
   position: absolute;
