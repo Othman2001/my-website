@@ -20,7 +20,7 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 385vw;
+  width: 500vw;
 }
 .one {
   background: #2c3333;
