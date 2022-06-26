@@ -206,3 +206,5 @@ function x(e, t) {
 window.innerWidth < 700
   ? alert("This website is horizontal scroll oriented")
   : null;
+
+console.log("wrold");
