@@ -14,6 +14,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
+  overflow-x: hidden;
 }
 .side {
   display: flex;
@@ -22,6 +23,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 490vw;
+  overflow-x: hidden;
 }
 .one {
   background: #2c3333;
@@ -56,8 +58,8 @@ body {
   transform: rotate(-90deg) translate(-100vh);
   transform-origin: top left;
   overflow-y: scroll;
-  overflow: scroll;
   position: absolute;
+  overflow-x: hidden;
 }
 .outer-wrapper {
   scrollbar-width: none;
@@ -147,6 +149,9 @@ canvas {
   background-color: #3333 !important;
 }
 @media only screen and (max-width: 600px) {
+  .wrapper {
+    display: flex;
+  }
   .section-content {
     padding-left: 100px;
     padding-right: 100px;
