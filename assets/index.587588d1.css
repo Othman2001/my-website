@@ -54,7 +54,10 @@ body {
   background-color: #202f35 !important;
 }
 .left-20 {
-  margin-left: 50px !important;
+  margin-left: 77px !important;
+}
+.left-30 {
+  margin-left: 57px;
 }
 .four {
   background: #3d3d3d;
@@ -183,6 +186,9 @@ canvas {
   }
   .wrapper {
     display: flex;
+  }
+  .left-30 {
+    margin-left: 50px !important;
   }
   .outer-wrapper {
     overflow-x: scroll;
