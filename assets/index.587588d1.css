@@ -61,6 +61,8 @@ body {
   /* overflow-y: scroll;
   position: absolute;
   overflow-x: hidden; */
+
+  position: absolute;
 }
 .outer-wrapper {
   scrollbar-width: none;
@@ -124,6 +126,7 @@ canvas {
 .social-list {
   color: #d3d3d3;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .HTML {
   color: #f06529;
@@ -262,4 +265,12 @@ canvas {
 .image {
   width: 250px;
   height: 250px;
+}
+
+.start-button {
+  background-color: #2666cf;
+  padding: 20px;
+  border-radius: 30px;
+  color: #fff;
+  margin-top: 30px;
 }
