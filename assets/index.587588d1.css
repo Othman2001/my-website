@@ -61,6 +61,8 @@ body {
   /* overflow-y: scroll;
   position: absolute;
   overflow-x: hidden; */
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
 
   position: absolute;
 }
@@ -273,4 +275,10 @@ canvas {
   border-radius: 30px;
   color: #fff;
   margin-top: 30px;
+  transition: 1s ease-in;
+}
+
+.start-button:hover {
+  cursor: pointer;
+  background-color: #6d98ba;
 }
