@@ -10,6 +10,9 @@ body {
   font-family: "Orbitron", sans-serif;
   margin: 0;
 }
+.scroll-text {
+  display: none;
+}
 .start-button {
   background-color: #2666cf;
   padding: 20px;
@@ -171,6 +174,10 @@ canvas {
   background-color: #3333 !important;
 }
 @media only screen and (max-width: 600px) {
+  .scroll-text {
+    display: block;
+    color: #2666cf;
+  }
   .start-button {
     display: block;
   }
