@@ -158,6 +158,9 @@ canvas {
   .wrapper {
     display: flex;
   }
+  .outer-wrapper {
+    overflow-x: scroll;
+  }
   .section-content {
     padding-left: 100px;
     padding-right: 100px;
