@@ -58,8 +58,9 @@ body {
   transform: rotate(-90deg) translate(-100vh);
   transform-origin: top left;
   overflow-y: scroll;
+  /* overflow-y: scroll;
   position: absolute;
-  overflow-x: hidden;
+  overflow-x: hidden; */
 }
 .outer-wrapper {
   scrollbar-width: none;
