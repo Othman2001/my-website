@@ -10,6 +10,22 @@ body {
   font-family: "Orbitron", sans-serif;
   margin: 0;
 }
+.start-button {
+  background-color: #2666cf;
+  padding: 20px;
+  border-radius: 30px;
+  color: #fff;
+  margin-top: 30px;
+  transition: 1s ease-in;
+
+  display: none;
+}
+
+.start-button:hover {
+  cursor: pointer;
+
+  background-color: #6d98ba;
+}
 .slide {
   width: 100vw;
   height: 100vh;
@@ -155,6 +171,9 @@ canvas {
   background-color: #3333 !important;
 }
 @media only screen and (max-width: 600px) {
+  .start-button {
+    display: block;
+  }
   .wrapper {
     display: flex;
   }
@@ -270,18 +289,4 @@ canvas {
 .image {
   width: 250px;
   height: 250px;
-}
-
-.start-button {
-  background-color: #2666cf;
-  padding: 20px;
-  border-radius: 30px;
-  color: #fff;
-  margin-top: 30px;
-  transition: 1s ease-in;
-}
-
-.start-button:hover {
-  cursor: pointer;
-  background-color: #6d98ba;
 }
